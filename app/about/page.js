@@ -5,7 +5,7 @@ const About = () => {
         <div className="container mx-auto px-8 md:px-4 py-8">
             <h1 className="text-3xl font-semibold mb-4">Welcome to Cinema is Amar</h1>
             <p className="text-lg mb-6">
-                I'm Amar, and this channel is dedicated to all things cinema. From detailed movie reviews and web series breakdowns to deep dives into the art of filmmaking, this is your place if you love watching and talking about movies.
+                I&apos;m Amar, and this channel is dedicated to all things cinema. From detailed movie reviews and web series breakdowns to deep dives into the art of filmmaking, this is your place if you love watching and talking about movies.
             </p>
 
             <h2 className="text-2xl font-semibold mb-4">How It Works</h2>
