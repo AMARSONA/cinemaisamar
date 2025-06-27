@@ -13,15 +13,15 @@ const About = () => {
                 <div className="flex items-center mb-6">
                     <img className="w-20 h-20 rounded-full mr-4" src="/group.gif" alt="Fans Want to Collaborate" />
                     <div>
-                        <h3 className="text-xl font-semibold mb-2">Let's Collaborate</h3>
-                        <p>If its about entertainment,we can enthusiasticly collaborate and make interesting videos for everyone to giggle.</p>
+                        <h3 className="text-xl font-semibold mb-2"> Let&aposs; Collaborate</h3>
+                        <p>If it&apos;s about entertainment,we can enthusiasticly collaborate and make interesting videos for everyone to giggle.</p>
                     </div>
                 </div>
                 <div className="flex items-center mb-6">
                     <img className="w-20 h-20 rounded-full mr-4" src="/coin.gif" alt="Support Through Coffee" />
                     <div>
                         <h3 className="text-xl font-semibold mb-2">Support Through SuperChat</h3>
-                        <p>If my content makes you curious, you can support me by providing Superchat in "Your Page" Section, thus contributing to my hustle and growth.</p>
+                        <p>If my content makes you curious, you can support me by providing Superchat in &quot;Your Page&quot;Section, thus contributing to my hustle and growth.</p>
                     </div>
                 </div>
                 {/* Add more steps as needed */}
