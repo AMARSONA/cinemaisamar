@@ -78,7 +78,7 @@ export const authoptions = NextAuth({
                 return true
                 // return "/welcome";
             }
-               return false
+               // return false
         },
 
         async session({ session, user, token }) {
