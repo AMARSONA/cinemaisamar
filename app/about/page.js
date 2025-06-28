@@ -13,7 +13,7 @@ const About = () => {
                 <div className="flex items-center mb-6">
                     <img className="w-20 h-20 rounded-full mr-4" src="/group.gif" alt="Fans Want to Collaborate" />
                     <div>
-                        <h3 className="text-xl font-semibold mb-2"> Let&aposs; Collaborate</h3>
+                        <h3 className="text-xl font-semibold mb-2"> Let&apos;s Collaborate</h3>
                         <p>If it&apos;s about entertainment,we can enthusiasticly collaborate and make interesting videos for everyone to giggle.</p>
                     </div>
                 </div>
