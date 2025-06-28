@@ -16,7 +16,8 @@ const Dashboard = () => {
         console.log(session)
 
         if (!session) {
-            router.push('/login')
+            // router.push('/login')
+            router.push('/dashboard')
         }
         else {
             getData()
