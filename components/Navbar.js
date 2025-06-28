@@ -13,7 +13,7 @@ const Navbar = () => {
     //     </>
     // }
     return (
-        <nav className=' text-black flex justify-between items-center px-4 md:h-16'>
+        <nav className='text-black flex justify-between items-center px-4 md:h-16'>
 
             <Link href={"/"} className='logo font-bold text-lg flex justify-center items-center'>
                 <img className='invertImg' src="/cinema.gif" width={44} alt="" />
