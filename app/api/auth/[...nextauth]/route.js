@@ -75,7 +75,7 @@ export const authoptions = NextAuth({
                 //     // If user exists, update the user information
                 //     user.name = currentUser.username;
                 // }
-                return true
+                    return true
                 // return "/welcome";
             }
                // return false
@@ -89,7 +89,7 @@ export const authoptions = NextAuth({
         },
 
         async redirect({ url, baseUrl }) {
-            return "/dashboard"; // Redirect after successful login
+             return "/dashboard"; // Redirect after successful login
         },
     }
 
