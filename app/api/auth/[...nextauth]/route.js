@@ -89,7 +89,7 @@ export const authoptions = NextAuth({
         },
 
         async redirect({ url, baseUrl }) {
-            return "/welcome"; // Redirect after successful login
+            return "/dashboard"; // Redirect after successful login
         },
     }
 
