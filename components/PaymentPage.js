@@ -104,14 +104,14 @@ const PaymentPage = ({ username }) => {
             <div className="info flex justify-center items-center my-24 mb-32 flex-col gap-2">
 
                 <div className='font-bold text-lg'>@{username}</div>
-                <div className='text-slate-400'>
-                    Let&apos;s help {username} to get a cup of Coffee !
+                <div className='text-white'>
+                    Let&apos;s help CinemaisAmar get a cup of Coffee !
                 </div>
                 <div>
-                    {payments.length} Payments . {currentUser.username} has raised ₹{payments.reduce((acc, payment) => acc + payment.amount, 0)} so far.
+                    {payments.length} Payments . {currentUser.username} has helped CinemaisAmar raise ₹{payments.reduce((acc, payment) => acc + payment.amount, 0)} so far.
                 </div>
                 <div className="payment flex gap-3 w-[80%] mt-11 flex-col md:flex-row">
-                    <div className="supporters w-full md:w-1/2 bg-slate-900 rounded-lg text-white px-2 md:p-10">
+                    <div className="supporters w-full md:w-1/2 bg-blue-900 rounded-lg text-white px-2 md:p-10">
                          {/* Show list of all the supporters as a leaderboard  */}
                         <h2 className='text-2xl font-bold my-5'> Top 10 Supporters</h2>
                         {payments.length == 0 && <div>No payments yet</div>}
@@ -126,7 +126,7 @@ const PaymentPage = ({ username }) => {
                         </ul>
 
                     </div>
-                    <div className="makepayment w-full md:w-1/2 bg-slate-900 rounded-lg text-white px-2 md:p-10">
+                    <div className="makepayment w-full md:w-1/2 bg-blue-900 rounded-lg text-white px-2 md:p-10">
                         <h2 className='my-5 text-2xl font-bold'>Make a Payment</h2>
                         <div className='flex flex-col gap-2'>
                             {/* input for name and message */}
