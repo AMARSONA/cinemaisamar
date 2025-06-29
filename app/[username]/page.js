@@ -1,4 +1,4 @@
-
+a
 import React from 'react'
 import PaymentPage from '@/components/PaymentPage'
 import { notFound } from "next/navigation"
@@ -47,6 +47,6 @@ export default Username
 
 export async function generateMetadata({ params }) {
   return {
-    title: `Support ${params.username} - Get Me A Coffee`,
+    title: `Support ${params.username} - Cinema is Amar`,
   }
 }
