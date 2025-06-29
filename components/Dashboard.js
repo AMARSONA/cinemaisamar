@@ -73,6 +73,7 @@ const Dashboard = () => {
             <ToastContainer /> */}
             <div className='container mx-auto py-5 px-6 '>
                 <h1 className='text-center my-5 text-3xl font-bold'>Welcome ! Please fill up the details to create your Profile</h1>
+                <h2 className='text-center my-5 text-xl font-bold'>(For new users, make sure you login first before creating your profile)</h2>
 
                 <form className="max-w-2xl mx-auto" action={handleSubmit}>
 
