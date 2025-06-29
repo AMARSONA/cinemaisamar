@@ -34,7 +34,7 @@ const DashboardPage = () => {
 // export default DashboardPage
 
 export const metadata = {
-    title: "Dashboard - Get Me A Coffee",
+    title: "Dashboard - Cinema is Amar",
   }
 
 
